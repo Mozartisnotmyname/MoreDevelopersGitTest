@@ -11,6 +11,7 @@
 @interface SCDoWork()
 
 @property (nonatomic, assign)BOOL canDoTheJob;
+@property (nonatomic, assign)BOOL isJobFinished;
 
 @end
 
@@ -24,5 +25,7 @@
     
     return (self);
 }
+
+
 
 @end
