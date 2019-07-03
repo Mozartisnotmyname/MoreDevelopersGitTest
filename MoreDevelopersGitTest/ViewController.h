@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SCPerson.h"
 
 @interface ViewController : UIViewController
 

@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (nonatomic, strong)SCPerson *scPerson;
+
 @end
 
 @implementation ViewController
@@ -17,6 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    _scPerson = [SCPerson sharedSCPerson];
+    _scPerson.name = @"Chen Ling";
+    _scPerson.position = @"engineer";
+    _scPerson.age = 25;
+    _scPerson.employeeNumber = 34893;
 }
 
 
