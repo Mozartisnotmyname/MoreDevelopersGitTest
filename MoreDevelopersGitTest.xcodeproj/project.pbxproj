@@ -15,6 +15,7 @@
 		A7343BEE22CCBDDB004FAC9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7343BED22CCBDDB004FAC9B /* main.m */; };
 		A7343BF822CCBDDB004FAC9B /* MoreDevelopersGitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7343BF722CCBDDB004FAC9B /* MoreDevelopersGitTestTests.m */; };
 		A7343C0322CCBDDB004FAC9B /* MoreDevelopersGitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7343C0222CCBDDB004FAC9B /* MoreDevelopersGitTestUITests.m */; };
+		A7343C1522CCC78D004FAC9B /* SCDoWork.m in Sources */ = {isa = PBXBuildFile; fileRef = A7343C1422CCC78D004FAC9B /* SCDoWork.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A7343BFE22CCBDDB004FAC9B /* MoreDevelopersGitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoreDevelopersGitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7343C0222CCBDDB004FAC9B /* MoreDevelopersGitTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreDevelopersGitTestUITests.m; sourceTree = "<group>"; };
 		A7343C0422CCBDDB004FAC9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7343C1322CCC78D004FAC9B /* SCDoWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCDoWork.h; sourceTree = "<group>"; };
+		A7343C1422CCC78D004FAC9B /* SCDoWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCDoWork.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				A7343BDF22CCBDD6004FAC9B /* AppDelegate.m */,
 				A7343BE122CCBDD6004FAC9B /* ViewController.h */,
 				A7343BE222CCBDD6004FAC9B /* ViewController.m */,
+				A7343C1322CCC78D004FAC9B /* SCDoWork.h */,
+				A7343C1422CCC78D004FAC9B /* SCDoWork.m */,
 				A7343BE422CCBDD6004FAC9B /* Main.storyboard */,
 				A7343BE722CCBDDB004FAC9B /* Assets.xcassets */,
 				A7343BE922CCBDDB004FAC9B /* LaunchScreen.storyboard */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7343BE322CCBDD6004FAC9B /* ViewController.m in Sources */,
+				A7343C1522CCC78D004FAC9B /* SCDoWork.m in Sources */,
 				A7343BEE22CCBDDB004FAC9B /* main.m in Sources */,
 				A7343BE022CCBDD6004FAC9B /* AppDelegate.m in Sources */,
 			);
